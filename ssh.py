@@ -9,7 +9,8 @@
 import subprocess
 import sys
 
-HOST="mft-1.prod1.mft.prod10.aws.travisperkins.com"
+#HOST="mft-1.prod1.mft.prod10.aws.travisperkins.com"
+HOST="am-wkr-1.sit1.midw.intest01.aws.travisperkins.cloud"
 
 # Ports are handled in ~/.ssh/config since we use OpenSSH
 COMMAND="df -h"
