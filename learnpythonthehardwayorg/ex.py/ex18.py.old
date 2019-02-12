@@ -1,0 +1,32 @@
+# this one is like your scipts with argv
+def print_two(*args):
+    arg1, arg2, = args
+    print "arg1: %r\n, arg2: %r" % (arg1, arg2)
+
+# ok, that *args is actually pointless, we can just do this.
+def print_two_again(arg1, arg2):
+    print "arg1: %r, arg2: %r" % (arg1, arg2)
+
+# this just takes one argument
+def print_one(arg1):
+    print  "arg1: %r" % arg1
+
+# this ones takes no arguments
+def print_none():
+    print "I got nothin'."
+
+
+print_two("mauli","Prakah")
+print_two_again("Mauli","Prakash")
+print_one("First!")
+print_none()
+
+
+# Functions start with def
+# only underscores and chars are allowed in the name.
+# parenthesis go after the function name.
+# arguments are are seperated by comma's
+# arguments must be unique
+# end functions with a full colon : don't forget the close bracket.
+# indent all line of the function.
+# 
